@@ -7,12 +7,15 @@ public class Main {
         int intB = intA;
 
         //REGRA S106?
+
+        //Quando o é o tipo primitivo ele copia exatamente oq esta na memoria
         System.out.println("intA= " + intA + " intB= " + intB);
 
         intA = 2;
 
         System.out.println("intA= " + intA + " intB= " + intB);
 
+        //Aqui já é a referencia de memória
         MeuObj objA = new MeuObj(1);
         MeuObj objB = objA;
 
